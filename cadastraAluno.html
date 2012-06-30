@@ -1,0 +1,97 @@
+﻿<html>
+<head>
+<title>Cadastrar Estágio</title>
+<link rel="stylesheet" type="text/css" href="css.css">
+</head>
+
+<body>
+<div id ="ufop">
+	<h3><center>Universidade Federal de Ouro Preto</center></h3>
+</div>
+<div id="menu_horizontal">
+    	<ul>
+            <li><a href="#">Cadastra Estágio</a></li>
+            <li><a href="#">Consulta Empresa</a></li>
+            <li><a href="#">Consulta Estágio</a></li>
+            <li><a href="#">Sair do sistema</a></li>
+        </ul>
+</div>
+<div id="dados">
+	
+              
+  <fieldset><legend><h3>Dados do aluno</h3></legend>
+    <table width="100%" id="dadosTable">
+  		<tr>
+    		<td width="113" height="32">&nbsp;Nome:</td>
+	  	  <td colspan="3"><input type="text" name="nome" id="nome" size="50"></td>        
+    		<td width="139"><div align="left">Matr&iacute;cula: &nbsp;</div></td>
+    		<td width="164"><input type="text" name="matricula" id="matricula" ></td>
+    		<td width="83">Curso:</td>
+			<td width="216">
+            	<select name="curso">
+			  		<option value="sistemas" >Sistemas de Informa&ccedil;&atilde;o</option>
+			  		<option value="producao" >Engenharia de Produ&ccedil;&atilde;o</option>
+					<option value="eletrica" >Engenharia El&eacute;trica</option>
+				  	<option value="computacao" >Engenharia de Computa&ccedil;&atilde;o</option>
+		    	</select>
+            </td>                       
+  		</tr>
+ 		<tr>
+    		<td height="28">&nbsp;CPF:</td>
+		    <td width="151"><input type="text" name="cpf" id="cpf" ></td>
+		    <td width="71"></td>
+		    <td width="107"></td>
+		    <td>Email: </td>
+		    <td colspan="3"><input type="text" name="email" id="email" size="50" ></td>
+	    </tr>
+	</table></br>
+    </fieldset>
+  <fieldset><legend><h3>Endere&ccedil;o</h3></legend>
+    <table width="100%" id="dadosTable">
+  		<tr>
+    		<td width="76" height="32">&nbsp;Rua:</td>
+	  	  <td><input type="text" name="rua" id="rua" size="50"></td>
+	  	  <td>N&uacute;mero:</td>
+	  	  <td width="143"><input type="text" name="numero" id="numero" size="5"></td>
+	  	  <td width="91">&nbsp;</td>                              
+	  	  <td>Complemento:</td>   
+	  	  <td><input type="text" name="complemento" id="complemento" size="5"></td>                                                  
+  		</tr>
+ 		<tr>
+    		<td height="28">&nbsp;Bairro:</td>
+		    <td width="300"><input type="text" name="bairro" id="bairro" size="30"></td>
+		    <td width="103">Cidade:</td>
+		    <td colspan="2"><input type="text" name="cidade" id="cidade" size="30"></td>                                   
+            <td>Estado:</td>                              
+  	  	  	<td>
+            	<select name="estado">
+	  	  	  	  <option value="mg" >Minas Gerais</option>
+  		  	  	  <option value="sp" >S&atilde;o Paulo</option>
+  	  		  	  <option value="rj" >Rio de Janeiro</option>
+  	  	  		  <option value="es" >Esp&iacute;rito Santo</option>
+  	  	    	</select>
+            </td>               
+		</tr>
+ 		<tr>
+		    <td width="76">&nbsp;CEP:</td>
+		    <td width="300"><input type="text" name="nomeSupervisor" id="nomeSupervisor" size="30"></td>                                           
+    		<td height="28">Telefone:</td>
+		    <td colspan="2"><input type="text" name="telresidencial" id="telresidencial" size="30"></td>
+		    <td width="114">Celular:</td>
+		    <td width="203"><input type="text" name="celular" id="celular" size="30"></td>                                   
+		</tr>        
+	</table></br>            
+    </fieldset></br>
+    <div align="center">
+    	<table width="219">
+		  <tr>
+		    <td width="61"><input name="gravar" type="submit" value="Gravar"></td>
+		    <td width="66"><input name="limpar" type="reset" value="Limpar"></td>
+		    <td width="76"><input name="cancelar" type="submit" value="Cancelar"></td>
+		  </tr>
+		</table>     
+    </div>
+</div>
+
+</body>
+</html>

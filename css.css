@@ -1,0 +1,55 @@
+﻿@charset "utf-8";
+/* CSS Document */
+#ufop {		
+	padding:38px;
+	margin:10 auto;
+	background: 4px transparent url('img/logo_ufop.png') no-repeat;	
+	font-size:20px;
+	font-family:Arial, Helvetica, sans-serif;
+	background-color:#D4D4D4;
+}
+
+#dados{
+	margin:10 auto;	
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+}
+
+#dadosTable{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+}
+
+#menu_horizontal{
+	margin:10 auto;
+	text-align:center;
+	background: transparent url('img/bock.png');
+}
+#menu_horizontal ul li{
+	display:block;	
+	float:left;
+	margin:0;
+	padding:0;
+}
+
+#menu_horizontal ul{
+	font-size:13px;
+	font-family:Arial, Helvetica, sans-serif;
+	height:30px;
+	display:table;	
+	text-transform:uppercase;
+}
+
+#menu_horizontal ul li a{
+	display:block;
+	float:left;
+	color:#FFF;
+	text-decoration:none;
+	padding:0px 50px ;
+	line-height:30px;
+	font-weight:bold;			
+}
+
+#menu_horizontal ul li a:hover , #menu_horizontal li#current a{
+	color: #000;
+}

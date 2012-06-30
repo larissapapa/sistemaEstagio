@@ -1,0 +1,98 @@
+﻿<html>
+<head>
+<title>Cadastrar Estágio</title>
+<link rel="stylesheet" type="text/css" href="css.css">
+</head>
+
+<body>
+<div id ="ufop">
+	<h3><center>Universidade Federal de Ouro Preto</center></h3>
+</div>
+<div id="menu_horizontal">
+    	<ul>
+            <li><a href="#">Cadastra Aluno</a></li>
+            <li><a href="#">Consulta Empresa</a></li>
+            <li><a href="#">Consulta Estágio</a></li>
+            <li><a href="#">Sair do sistema</a></li>
+        </ul>
+</div>
+<div id="dados">
+	<fieldset><legend><h3>Tipo de est&aacute;gio</h3></legend>
+    	  <table width="50%" align="center">
+    	    <tr>
+    	      <td width="50%"><input type="radio" name="radio" id="tipoEstagio" value="tipoEstagio"><font id="dadosTable"> Curricular</font></td>
+    	      <td width="50%"><input type="radio" name="radio" id="tipoEstagio" value="tipoEstagio"><font id="dadosTable"> Obrigat&oacute;rio</font></td>
+    	      </tr>
+    	    </table></br>
+  	</fieldset>  	
+              
+  <fieldset><legend><h3>Dados do estagi&aacute;rio</h3></legend>
+    <table width="100%" id="dadosTable">
+  		<tr>
+    		<td width="113" height="32">&nbsp;Nome:</td>
+	  	  <td colspan="3"><input type="text" name="nome" id="nome" size="50"></td>        
+    		<td width="139"><div align="left">Matr&iacute;cula: &nbsp;</div></td>
+    		<td width="164"><input type="text" name="matricula" id="matricula" ></td>
+    		<td width="83">Curso:</td>
+			<td width="216">
+            	<select name="curso">
+			  		<option value="sistemas" >Sistemas de Informa&ccedil;&atilde;o</option>
+			  		<option value="producao" >Engenharia de Produ&ccedil;&atilde;o</option>
+					<option value="eletrica" >Engenharia El&eacute;trica</option>
+				  	<option value="computacao" >Engenharia de Computa&ccedil;&atilde;o</option>
+		    	</select>
+            </td>                       
+  		</tr>
+ 		<tr>
+    		<td height="28">&nbsp;Cr&eacute;ditos cursados:</td>
+		    <td width="151"><input type="text" name="credCursado" id="credCursado" ></td>
+		    <td width="71">Horas/Dia:</td>
+		    <td width="107"><input type="text" name="horas" id="horas" size="3"></td>
+		    <td>In&iacute;cio do est&aacute;gio:</td>
+		    <td><input type="text" name="iniEstagio" id="iniEstagio" ></td>
+		    <td>Fim do est&aacute;gio:</td>
+		    <td><input type="text" name="fimEstagio" id="fimEstagio" size="28"></td>                        
+		</tr>
+	</table></br>
+    </fieldset>
+  <fieldset><legend><h3>Empresa concedente</h3></legend>
+    <table width="100%" id="dadosTable">
+  		<tr>
+    		<td width="76" height="32">&nbsp;CNPJ:</td>
+	  	  <td><input type="text" name="nome" id="nome" size="50"></td>
+	  	  <td><input type="submit" name="pesquisarEmpresa" id="pesquisarEmpresa" value="Pesquisar"></td>
+	  	  <td>&nbsp;</td>                              
+	  	  <td>&nbsp;</td>   
+	  	  <td>&nbsp;</td>                                                  
+  		</tr>
+ 		<tr>
+    		<td height="28">&nbsp;Empresa:</td>
+		    <td width="300"><input type="text" name="nomeEmpresa" id="nomeEmpresa" size="50"></td>
+		    <td width="107">&Aacute;rea de atua&ccedil;&atilde;o:</td>
+		    <td width="251"><input type="text" name="nomeSupervisor" id="nomeSupervisor" size="30"></td>                                   
+            <td>&nbsp;</td>                              
+  	  	  	<td>&nbsp;</td>               
+		</tr>
+ 		<tr>
+		    <td width="76">&nbsp;Supervisor:</td>
+		    <td width="300"><input type="text" name="nomeSupervisor" id="nomeSupervisor" size="50"></td>                                           
+    		<td height="28">CPF Supervisor:</td>
+		    <td width="251"><input type="text" name="nomeEmpresa" id="nomeEmpresa" size="30"></td>
+		    <td width="120">RG do Supervisor:</td>
+		    <td width="198"><input type="text" name="nomeSupervisor" id="nomeSupervisor" size="30"></td>                                   
+		</tr>        
+	</table></br>            
+    </fieldset></br>            
+    <div align="center">
+    	<table width="219">
+		  <tr>
+		    <td width="61"><input name="gravar" type="submit" value="Gravar"></td>
+		    <td width="66"><input name="limpar" type="reset" value="Limpar"></td>
+		    <td width="76"><input name="cancelar" type="submit" value="Cancelar"></td>
+		  </tr>
+		</table>     
+    </div>    
+</div>
+
+</body>
+</html>
